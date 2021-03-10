@@ -34,3 +34,4 @@ yarn-error.log*
 .vercel
 
 techsavr-dev-firebase-adminsdk-3ou8l-26450d6d39.json
+vercelEnvs.txt
