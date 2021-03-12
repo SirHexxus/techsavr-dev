@@ -9,7 +9,7 @@ import { Box, Button, Flex, Stack, Text } from '@chakra-ui/react';
 const SITE_ID = 'ELOuoUlh4xfcfIsmN9M9'; // process.env.NEXT_PUBLIC_HOME_PAGE_SITE_ID;
 
 export async function getStaticProps(context) {
-  const { feedback } = await getAllFeedback(SITE_ID);
+  // const { feedback } = await getAllFeedback(SITE_ID);
   // const { site } = await getSite(SITE_ID);
 
   return {
