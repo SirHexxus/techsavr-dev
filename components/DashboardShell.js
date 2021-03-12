@@ -19,10 +19,12 @@ const DashboardShell = ({ children }) => {
       >
         <Stack spacing={4} isInline>
           <NextLink href="/" passHref>
-            <LogoIcon color="#000000" name="logo" boxSize={6} />
+            <Link>
+              <LogoIcon color="#000000" name="logo" boxSize={12} />
+            </Link>
           </NextLink>
           <NextLink href="/dashboard" passHref>
-            <Link mr={4}>Sites</Link>
+            <Link mr={4}>Dashboard</Link>
           </NextLink>
           <NextLink href="/feedback" passHref>
             <Link>Feedback</Link>
