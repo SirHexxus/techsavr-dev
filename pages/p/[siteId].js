@@ -94,4 +94,10 @@
 // };
 
 // export default SiteFeedback;
-export default <div />;
+import React from 'react';
+
+export const SiteFeedback = () => {
+  return <></>;
+};
+
+export default SiteFeedback;
