@@ -24,7 +24,7 @@ export default function Dashboard() {
     );
   }
 
-  if (data.sites.length) {
+  if (data?.sites?.length) {
     return (
       <DashboardShell>
         <SiteTableHeader isPaidAccount={isPaidAccount} />
