@@ -94,3 +94,4 @@
 // };
 
 // export default SiteFeedback;
+export default <div />;
